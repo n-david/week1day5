@@ -7,7 +7,7 @@ function maxProfit(stockPrices) {
       j++;
     }
   }
-  var max = Math.max.apply(this, profitArray)
+  var max = Math.max.apply(this, profitArray);
 
   return max;
 }
