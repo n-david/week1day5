@@ -1,0 +1,20 @@
+{
+  "name": "credit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "credit.js",
+  "directories": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
