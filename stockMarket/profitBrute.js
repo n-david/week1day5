@@ -9,7 +9,7 @@ function maxProfit(stockPrices) {
   }
   var max = Math.max.apply(this, profitArray);
 
-  return max;
+  return max < 1 ? max = -1 : max;
 }
 
 console.log(maxProfit([45, 24, 35, 31, 40, 38, 11]));
